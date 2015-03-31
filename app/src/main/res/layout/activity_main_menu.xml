@@ -5,7 +5,7 @@
     tools:context="com.ade.vpillai.adedatacenter.MainMenu"
     android:weightSum="1"
     android:orientation="horizontal"
-    >
+    android:baselineAligned="false">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,13 +1,12 @@
 package com.ade.vpillai.adedatacenter;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.widget.Toast;
 
 
-public class SplashScreen extends ActionBarActivity {
+public class SplashScreen extends Activity {
 
     private Thread mSplashThead;
 
@@ -27,6 +26,7 @@ public class SplashScreen extends ActionBarActivity {
                     }
                 }
                 catch(InterruptedException ex){
+                    Toast.makeText(SplashScreen.this,"Sorry! There has been a problem.", Toast.LENGTH_LONG).show();
                 }
 
                 finish();
