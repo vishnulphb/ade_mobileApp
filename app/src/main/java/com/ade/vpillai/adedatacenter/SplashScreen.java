@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 public class SplashScreen extends Activity {
 
-    private Thread mSplashThead;
+    private Thread mSplashThread;
 
     final SplashScreen splashScreen = this;
     @Override
@@ -16,13 +16,13 @@ public class SplashScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        mSplashThead = new Thread()
+        mSplashThread = new Thread()
         {
             public void run(){
                 try {
                     synchronized(this){
                         // Wait given period of time or exit on touch
-                        wait(5000);
+                        wait(3000);
                     }
                 }
                 catch(InterruptedException ex){
@@ -33,13 +33,13 @@ public class SplashScreen extends Activity {
 
                 // Run next activity
                 Intent intent = new Intent();
-                intent.setClass(splashScreen, MainMenu.class);
+                intent.setClass(splashScreen, menu2.class);
                 startActivity(intent);
 
             }
         };
 
-        mSplashThead.start();
+        mSplashThread.start();
     }
     }
 
