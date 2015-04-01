@@ -26,7 +26,7 @@
         android:layout_below="@+id/imageView"
         android:text="Home"
         android:background="#80ffffff"
-        android:focusableInTouchMode="true" />
+         />
 
     <Button
         android:layout_width="match_parent"
@@ -41,8 +41,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calendar"
-        android:id="@+id/calendar"
+        android:text="Links"
+        android:id="@+id/links"
         android:layout_below="@+id/events"
         android:background="#80ffffff"
 
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Live Feed"
         android:id="@+id/liveFeed"
-        android:layout_below="@+id/calendar"
+        android:layout_below="@+id/links"
         android:background="#80ffffff"
 
         android:layout_alignParentLeft="true"

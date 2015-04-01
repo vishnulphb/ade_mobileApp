@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class menu2 extends ActionBarActivity {
 
     private Button homeButton;
+    private Button linksButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,19 @@ public class menu2 extends ActionBarActivity {
                 Toast.makeText(menu2.this,"This is the Home Screen!", Toast.LENGTH_LONG).show();
             }
         });
+
+        linksButton = (Button)findViewById(R.id.links);
+
+        linksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(menu2.this,links.class);
+                startActivity(intent);
+
+
+            }
+        });
+
     }
 
 

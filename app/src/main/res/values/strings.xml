@@ -6,4 +6,7 @@
     <string name="title_activity_main_menu">Main Menu</string>
     <string name="title_activity_menu2">ADE Data Center</string>
     <string name="title_activity_home">ADE Home</string>
+    <string name="message_home_screen">The <b>ADE Data Center</b> is a collection of data systems; data tools and reports for educators, policy makers, teachers, parents, school districts, and anyone interested in official data from the <b>Arkansas Department of Education (ADE)</b>. This site is maintained by the <b>ADE Division of Research and Technology</b>, and most data is provided by Arkansas public school districts.</string>
+    <string name="title_activity_links">Links</string>
+    <string name="titleA">Teachers</string>
 </resources>
