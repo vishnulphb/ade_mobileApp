@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_menu2">ADE Data Center</string>
+    <string name="title_activity_home">ADE Home</string>
 </resources>

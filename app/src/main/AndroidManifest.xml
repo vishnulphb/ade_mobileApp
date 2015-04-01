@@ -20,6 +20,18 @@
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu" >
         </activity>
+        <activity
+            android:name=".menu2"
+            android:label="@string/title_activity_menu2" >
+        </activity>
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:parentActivityName=".menu2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ade.vpillai.adedatacenter.menu2" />
+        </activity>
     </application>
 
 </manifest>

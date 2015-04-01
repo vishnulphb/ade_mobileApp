@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:id="@+id/about"
+            android:id="@+id/staff"
             android:src="@mipmap/about_color"
             android:adjustViewBounds="true"
             android:scaleType="fitXY" />
